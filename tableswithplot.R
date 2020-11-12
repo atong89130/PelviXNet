@@ -237,11 +237,6 @@ table(testset[which(testset$predict_category=='FN'),'Periprothesis'])
 table(testset[which(testset$predict_category=='FN'),'Periprothesis'])/sum(testset$predict_category=='FN')
 table(testset[which(testset$predict_category=='FN'),'FShaftfx'])
 table(testset[which(testset$predict_category=='FN'),'FShaftfx'])/sum(testset$predict_category=='FN')
-22+23+4+5+5
-testset$Other
-
-sum(testset$Difficult.Case)
-82/1888
 
 table(testset$FShaftfx,testset$predict_category)
 table(testset$Hipfx,testset$predict_category)
